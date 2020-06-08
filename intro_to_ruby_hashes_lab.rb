@@ -7,7 +7,8 @@ end
 
 def monopoly_with_second_tier
   hash = {:railroads => {}}
-  hash[:railroads][0] << [:pieces => 4]
+  hash[:pieces] = "4"
+  hash[:pieces]
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
